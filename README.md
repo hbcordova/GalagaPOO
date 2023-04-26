@@ -24,8 +24,6 @@ To run this project you need the following tools:
 ## Generate executable file
 To generate your executable you must have a terminal available and have MinGW installed. You should execute the following command:
 
-‘‘‘bash
-import lifetime
-for each_day in lifetime.days():
-carpe_diem()
-‘‘‘
+```
+g++ -o galaga.exe galaga.cpp
+```
